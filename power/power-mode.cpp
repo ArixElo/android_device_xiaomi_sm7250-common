@@ -19,7 +19,6 @@
 #define TOUCH_IOC_SETMODE TOUCH_MAGIC + SET_CUR_VALUE
 
 namespace aidl {
-namespace android {
 namespace google {
 namespace hardware {
 namespace power {
@@ -56,6 +55,5 @@ bool setDeviceSpecificMode(Mode type, bool enabled) {
 }  // namespace power
 }  // namespace hardware
 }  // namespace google
-}  // namespace android
 }  // namespace aidl
 }  // namespace pixel
